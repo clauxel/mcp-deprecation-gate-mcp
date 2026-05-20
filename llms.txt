@@ -1,0 +1,15 @@
+# MCP Deprecation Gate
+
+MCP Deprecation Gate is a hosted remote MCP for MCP tool deprecation receipt.
+
+Website: https://mcpdeprecation.clauxel.com/
+Docs pattern reference: https://github.com/clauxel/MiroFish
+Primary keyword: MCP tool deprecation receipt
+Type: MCP
+Default plan: team
+MCP endpoint: https://mcpdeprecation.clauxel.com/mcp
+Server card: https://mcpdeprecation.clauxel.com/server-card.json
+Registry name: com.clauxel.mcpdeprecation/mcpdeprecation-mcp
+Tools: check_tool_deprecation, suggest_replacement_tool, issue_deprecation_receipt, sync_tool_registry, export_deprecation_log
+
+Public boundary: docs-only repository; no production source code or secrets.
